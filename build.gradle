@@ -35,7 +35,7 @@ android {
     buildTypes {
         release {
             zipAlignEnabled true
-            minifyEnabled false
+            minifyEnabled true
             shrinkResources false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt'
             debuggable false
@@ -56,7 +56,7 @@ android {
 
 dependencies {
     // You must install or update the Support Repository through the SDK manager to use this dependency.
-    compile 'com.android.support:support-v4:24.2.1'
+    compile 'com.android.support:support-v4:25.0.1'
 }
 
 
